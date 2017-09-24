@@ -36,14 +36,14 @@ If you run the script without specifying any argument it will try to get the con
 You can also use the following arguments:
 * target - use it to specify the IP of your router
 * complete_data - use it to dump more data that might not be of interest for most users (data related to the management server for example)
-* dump_config - use it to write the xml config to a file. Some bytes at the beggining will be removed so this config cannot be uploaded back into the router
+* dump_config - use it to write the xml config to a file. Some bytes at the beginning will be removed so this config cannot be uploaded back into the router
 
 Example using all the arguments (assuming the IP address of your router is 192.168.100.1):
 ```
 python dump_data.py --target=192.168.100.1 --complete_data --dump_config=cfg.xml
 ```
 
-## Possible mprovements
+## Possible improvements
 
 Things that might be added if I decide to improve this script:
 * More data printed out for the user. The main challenge would be to decide what data is relevant

@@ -1,5 +1,5 @@
 lxml==4.0.0
 netifaces==0.10.6
 pyaes==1.6.1
-requests==2.18.4
+requests==2.20.0
 urllib3==1.24.2

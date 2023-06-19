@@ -1,6 +1,12 @@
 # Huawei HG658b data dumper
 
-This is a script that can be used for extracting data from your Huawei HG658b router.
+**This repository has been archived**  
+The vulnerability was fixed in newer firmware releases for that router and the router model is not as popular as before.
+
+---
+
+This is a ~~glorified XML parser~~ script that can be used for extracting data from your Huawei HG658b router.
+
 No credentials are required, you just have to be connected to the router (and see its web interface).
 This might be useful if you forgot the credentials that you set up or that were provided to you by your ISP and you want to recover them.
 
